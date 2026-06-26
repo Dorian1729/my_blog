@@ -52,6 +52,11 @@ body,
   font: inherit;
 }
 
+.input-content {
+  height: 132px;
+  resize: none;
+}
+
 .button {
   padding: 12px;
   border: 1px solid #000;
