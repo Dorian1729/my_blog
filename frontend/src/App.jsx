@@ -5,16 +5,16 @@ function BackgroundContainer({ children }) {
 function CenteredForm() {
   return (
     <form className="form">
-      <h1 className="form-title">登录</h1>
+      <h1 className="form-title">评论</h1>
 
       <label className="field">
-        邮箱
+        用户名
         <input className="input" type="email" name="email" />
       </label>
 
       <label className="field">
-        密码
-        <input className="input" type="password" name="password" />
+        内容
+        <textarea className="input input-content" name="content" />
       </label>
 
       <button className="button" type="submit">
