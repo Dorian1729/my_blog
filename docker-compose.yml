@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: comment_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: dorian
+      POSTGRES_PASSWORD: abc123
+      POSTGRES_DB: commentdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - comment_pg_data:/var/lib/postgresql/data
+
+volumes:
+  comment_pg_data:
