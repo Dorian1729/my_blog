@@ -1,7 +1,7 @@
 const copy = {
   zh: {
-    title: '健身小记',
-    body: '这里展示健身小记列表。',
+    title: '健身训练表',
+    body: '健身训练表稍后补充。',
   },
   en: {
     title: 'Fitness',
