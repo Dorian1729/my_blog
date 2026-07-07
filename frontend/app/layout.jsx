@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'My Blog',
-  description: 'Personal blog',
+  title: 'Dorian\'s Blog',
+  description: 'Dorian\'s personal blog',
   icons: {
     icon: '/logo.svg',
   },
